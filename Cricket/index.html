@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cpi Cricket Tournament</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href=".//index.css">
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <div class="logo">
+                <a href="#">Tech Cluder</a>
+
+            </div>
+            <ul id="menuList">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rules</a></li>
+                <li><a href="#">Registration Form</a></li>
+              
+            </ul>
+        </div>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+    <div class="img"></div>
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "300px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+        
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+
+
+    <br>
+<br><br>
+
+       <!-- Banner start -->
+       <header class="banner">
+        <div class="banner-content">
+            <h3>Welcome to <span> CPI Cricket Tournament</span></h3>
+            <p>Please Read the rules and conditation  <Span>fill the player details</Span></p>
+         
+        </div>
+    </header>
+
+
+
+
+    <div class="container">
+        <h1>Team Registration Form</h1> <br>
+        <form>
+            <label for="player1-name"><h4>Team Name: </h4></label>
+            <input type="text" id="team-name" name="team-name" required>
+
+            <label for="player1-name"><h4>Department:</h4></label>
+            <input type="text" id="department" name="department" required><br><br><br>
+
+           <br><br>
+
+            <h2>Players</h2>
+            <br><br>
+            <br>
+            <div id="players">
+
+                <!-- player Start -->
+                <label for="captain-name"><h4>Captain's Name:</h4></label>
+                <input type="text" id="captain-name" name="captain-name" required>
+    
+                <label for="captain-mobile">Captain's Mobile Number:</label>
+                <input type="tel" id="captain-mobile" name="captain-mobile" required>
+                <br><br>
+
+               
+                <div class="player">
+                    <label for="player1-name"><h4>Player 2 Name:</h4></label>
+                    <input type="text" id="player1-name" name="player1-name" required>
+
+                    <label for="player1-mobile">Player 2 Mobile Number:</label>
+                    <input type="tel" id="player1-mobile" name="player1-mobile" required>
+                </div>
+                <br> <br> 
+                
+                <div class="player">
+                    <label for="player1-name"><h4>Player 3 Name:</h4></label>
+                    <input type="text" id="player1-name" name="player1-name" required>
+
+                    <label for="player1-mobile">Player 3 Mobile Number:</label>
+                    <input type="tel" id="player1-mobile" name="player1-mobile" required>
+                </div>
+                <br> <br> 
+                
+                <div class="player">
+                    <label for="player1-name"><h4>Player 4 Name:</h4></label>
+                    <input type="text" id="player1-name" name="player1-name" required>
+
+                    <label for="player1-mobile">Player 4 Mobile Number:</label>
+                    <input type="tel" id="player1-mobile" name="player1-mobile" required>
+                </div>
+                <br> <br> 
+                
+                <div class="player">
+                    <label for="player1-name"><h4>Player 5 Name:</h4></label>
+                    <input type="text" id="player1-name" name="player1-name" required>
+
+                    <label for="player1-mobile">Player 5 Mobile Number:</label>
+                    <input type="tel" id="player1-mobile" name="player1-mobile" required>
+                </div>
+                <br> <br> 
+                
+                <div class="player">
+                    <label for="player1-name"><h4>Player 6 Name:</h4></label>
+                    <input type="text" id="player1-name" name="player1-name" required>
+
+                    <label for="player1-mobile">Player 6 Mobile Number:</label>
+                    <input type="tel" id="player1-mobile" name="player1-mobile" required>
+                </div>
+                <br> <br> 
+                
+                <div class="player">
+                    <label for="player1-name"><h4>Player 7 Name:</h4></label>
+                    <input type="text" id="player1-name" name="player1-name" required>
+
+                    <label for="player1-mobile">Player 7 Mobile Number:</label>
+                    <input type="tel" id="player1-mobile" name="player1-mobile" required>
+                </div>
+                <br> <br> 
+                
+                <div class="player">
+                    <label for="player1-name"><h4>Player 8 Name:</h4></label>
+                    <input type="text" id="player1-name" name="player1-name" required>
+
+                    <label for="player1-mobile">Player 8 Mobile Number:</label>
+                    <input type="tel" id="player1-mobile" name="player1-mobile" required>
+                </div>
+                <br> <br> 
+                
+                <div class="player">
+                    <label for="player1-name"><h4>Player 9 Name:</h4></label>
+                    <input type="text" id="player1-name" name="player1-name" required>
+
+                    <label for="player1-mobile">Player 9 Mobile Number:</label>
+                    <input type="tel" id="player1-mobile" name="player1-mobile" required>
+                </div>
+                <br> <br> 
+                
+                <div class="player">
+                    <label for="player1-name"><h4>Player 10 Name:</h4></label>
+                    <input type="text" id="player1-name" name="player1-name" required>
+
+                    <label for="player1-mobile">Player 10 Mobile Number:</label>
+                    <input type="tel" id="player1-mobile" name="player1-mobile" required>
+                </div>
+                <br> <br> 
+                <div class="player">
+                    <label for="player1-name"><h4>Player 11 Name:</h4></label>
+                    <input type="text" id="player1-name" name="player1-name" required>
+
+                    <label for="player1-mobile">Player 11 Mobile Number:</label>
+                    <input type="tel" id="player1-mobile" name="player1-mobile" required>
+                </div>
+                <br> <br> 
+                
+                
+
+                <!-- player end -->
+            </div>
+
+            <h2>Terms and Conditions</h2>
+            <ul>
+                <li>All team members must be from the same department.</li>
+                <li>The captain is responsible for ensuring the team adheres to the schedule.</li>
+                <li>Any form of misconduct will result in disqualification.</li>
+                <li>Players must wear appropriate team uniforms.</li>
+                <li>The decisions of the organizing committee are final.</li>
+            </ul>
+            <label>
+                <input type="checkbox" id="terms" name="terms">
+                I accept the <a href="terms.html" target="_blank">Terms and Conditions</a>
+            </label>
+            <br>
+
+            <!-- <button type="submit">Submit</button> -->
+            <button type="submit" id="submitBtn" disabled>Submit</button>
+        </form>
+
+
+        <script>
+            const termsCheckbox = document.getElementById('terms');
+            const submitBtn = document.getElementById('submitBtn');
+    
+            termsCheckbox.addEventListener('change', function() {
+                submitBtn.disabled = !this.checked;
+            });
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <!-- contact me start -->
+    <section class="contact-form">
+        <h2 class="contact-me">Contact <span> Us  </span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Team Name">
+                <input type="email" placeholder="Enter Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Enter Captain  valid Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn-1">
+        </form>
+
+    </section>
+    <!-- contact me end -->
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-whatsapp'></i></a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#">Service</a>
+            </li>
+            <li>
+                <a href="#">Contact Us</a>
+            </li>
+            <li>
+                <a href="#">About US </a>
+            </li>
+            <li>
+                <a href="#">Privecy Policy</a>
+            </li>
+        </ul>
+        <p class="copyright"> @2024  TechCluder All Right Reserved </p>
+    </footer>
+<!-- 
+        footer end -->
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
